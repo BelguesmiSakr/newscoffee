@@ -47,6 +47,15 @@
         border: 1px solid #ddd;
       }
 
+      /* Fix for iOS-specific behavior */
+      @supports (-webkit-touch-callout: none) {
+        .menu-image {
+          width: 100%;
+          max-width: 600px; /* Set a max width for better layout */
+          height: auto; /* Keep aspect ratio intact */
+        }
+      }
+
       /* Footer Styling */
       footer {
         text-align: center;
