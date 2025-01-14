@@ -136,7 +136,7 @@
          flex-direction: column;
      }
 
-     /* .service-item {
-         font-size: 1em;
-     } */
+     .coffee-services {
+         padding: 5px;
+     }
  }
