@@ -107,7 +107,8 @@
      justify-content: center;
      gap: 1em;
      padding: 10px;
-     font-size: 2em;
+     font-size: 1em;
+     font-family: 'Courier New', Courier, monospace;
  }
 
  .service-item img {
@@ -135,8 +136,7 @@
          flex-direction: column;
      }
 
-     .service-item {
-
+     /* .service-item {
          font-size: 1em;
-     }
+     } */
  }
