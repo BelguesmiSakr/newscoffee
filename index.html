@@ -25,10 +25,10 @@
       header {
         background-color: rgba(0, 0, 0, 0.45);
         color: #fff;
-        padding: 10px;
+        padding: 20px;
         text-align: center;
-        font-family: "Comic Neue", sans-serif;
-        font-size: 1.5em; /* Adjust size to your preference */
+        /* font-family: "Comic Neue", sans-serif; */
+        font-size: 2.5em; /* Adjust size to your preference */
         font-weight: bold;
         letter-spacing: 1px;
         text-transform: uppercase;
@@ -38,7 +38,7 @@
 
       /* Main Menu Image Section */
       .menu-image {
-        width: 100%;
+        width: 70%;
         height: fit-content; /* Adjust the height based on your image size */
         object-fit: cover;
         border-bottom: 10px solid #333;
@@ -79,21 +79,24 @@
       }
 
       @media screen and (max-width: 768px) {
-        .map {
+        .map,
+        .menu-image {
           width: 100%;
         }
       }
 
       .image-container {
         padding: 20px;
+        display: flex;
+        justify-content: center;
       }
     </style>
   </head>
   <body>
     <!-- Header -->
     <header>
-      WELCOME TO <br />
-      THE NEWS COFFEE
+      <span> WELCOME TO THE NEWS COFFEE </span>
+      <!-- <img src="baner.png" alt="" /> -->
     </header>
 
     <!-- Main Menu Image Section -->
