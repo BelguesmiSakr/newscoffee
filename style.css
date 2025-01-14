@@ -135,7 +135,8 @@
          flex-direction: column;
      }
 
-     .service-item img {
-         max-width: 40px;
+     .service-item {
+
+         font-size: 1em;
      }
  }
