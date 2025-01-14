@@ -143,4 +143,8 @@
      .service-desc {
          display: none;
      }
+
+     .service-item img {
+         max-width: 60px;
+     }
  }
