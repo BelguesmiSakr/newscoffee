@@ -137,6 +137,10 @@
      }
 
      .coffee-services {
-         padding: 5px;
+         padding: 20px 5px;
+     }
+
+     .service-desc {
+         display: none;
      }
  }
